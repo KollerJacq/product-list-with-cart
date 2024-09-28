@@ -18,7 +18,7 @@ h1 {
 
 .btn {
   align-items: center;
-  background-color: white;
+  background-color: #ffffff;
   border: 1.5px solid #d1d1d1;
   border-radius: 20px;
   display: flex;
@@ -39,6 +39,22 @@ h1 {
 .btnimg {
   width: 16px;
   margin-right: 5px;
+}
+.minus,
+.plus {
+  display: none;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+.minus {
+  width: 20px;
+  padding: 9px 7px;
+  margin-bottom: 2px;
+}
+
+.plus {
+  width: 20px;
+  padding: 5px;
 }
 
 .btn:hover {
