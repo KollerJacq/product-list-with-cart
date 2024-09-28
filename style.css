@@ -41,6 +41,14 @@ h1 {
   margin-right: 5px;
 }
 
+.btn:hover {
+  cursor: pointer;
+  color: hsl(14, 86%, 42%);
+  background-color: #fff;
+  border-color: hsl(14, 86%, 42%);
+  transition: all 1sec ease-in-out;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
