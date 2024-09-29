@@ -57,6 +57,12 @@ h1 {
   width: 20px;
   padding: 5px;
 }
+.plus:hover,
+.minus:hover {
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
 
 .btn:hover {
   cursor: pointer;
