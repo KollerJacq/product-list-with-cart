@@ -34,34 +34,39 @@ h1 {
 .add {
   font-size: 14px;
   font-weight: 700;
+  padding: 0;
 }
 
 .btnimg {
+  display: block;
   width: 16px;
   margin-right: 5px;
 }
-.minus,
-.plus {
+
+.plus,
+.minus {
   display: none;
   border: 1px solid #fff;
   border-radius: 30px;
-  margin: 0 35px;
 }
+
 .minus {
   width: 20px;
-  padding: 9px 7px;
-  margin-bottom: 2px;
+  padding: 8px 6px;
+  margin-right: 50px;
 }
 
 .plus {
   width: 20px;
   padding: 5px;
+  margin-left: 18px;
 }
 .plus:hover,
 .minus:hover {
   cursor: pointer;
   background-color: #fff;
   transition: all 0.3s ease-in-out;
+  stroke: hsl(14, 86%, 42%);
 }
 
 .btn:hover {
