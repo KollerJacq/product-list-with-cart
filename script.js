@@ -1,15 +1,16 @@
 const buttons = document.querySelectorAll(".btn");
-const minusSymbol = document.querySelectorAll(".minus");
-const plusSymbol = document.querySelectorAll(".plus");
+let minusSymbols = document.querySelectorAll(".minus");
+let plusSymbols = document.querySelectorAll(".plus");
 
 buttons.forEach((button, index) => {
   button.addEventListener("click", function () {
     button.style.backgroundColor = "hsl(14, 86%, 42%)";
     button.style.color = "white";
     button.style.borderColor = "hsl(14, 86%, 42%)";
-    button.textContent = "1";
-
+    button.querySelector(".add").textContent = "1";
     minusSymbols[index].style.display = "block";
     plusSymbols[index].style.display = "block";
+
+    console.log(plusSymbols);
   });
 });
